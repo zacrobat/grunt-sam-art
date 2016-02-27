@@ -1,6 +1,9 @@
 {
   "name": "sam-art",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zacrobat/sam-art.git"
   "description": "Sam's Artwork Blog",
   "main": "Gruntfile.js",
   "scripts": {
