@@ -58,14 +58,23 @@ module.exports = function(grunt) {
     },
 
     sass: {
-      dist: {
+      // All options for compression: nested, expanded, compact, compressed
+      compressed: {
         options: {
           style: 'compressed',
-          sourcemap: 'none',
           noCache: true
         },
         files: {
           'dist/assets/css/main.min.css': ['src/styles/main.scss']
+        }
+      },
+      expanded: {
+        options: {
+          style: 'expanded',
+          noCache: true
+        },
+        files: {
+          'dist/assets/css/main.css': ['src/styles/main.scss']
         }
       }
     },
