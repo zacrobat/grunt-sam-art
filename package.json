@@ -1,0 +1,11 @@
+{
+  "name": "sam-art",
+  "version": "1.0.0",
+  "description": "Sam's Artwork Blog",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zac Cobb",
+  "license": "ISC"
+}
