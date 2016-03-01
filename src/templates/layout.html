@@ -18,11 +18,8 @@
 
 <body>
 
-  {{> header}}
-  {{#block "main"}}
-    <h2>Main block</h2>
-  {{/block}}
-  {{> footer}}
+  {{> header}} {{#block "main"}}
+  <h2>Main block</h2> {{/block}} {{> footer}}
 
 </body>
 
