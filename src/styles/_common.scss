@@ -14,6 +14,7 @@ img {
   width: 500px;
   display: inline-block;
   max-width: 100%;
+  border-bottom: 20px;
 }
 header,
 section,
@@ -23,7 +24,8 @@ footer {
     max-width: 1080px;
     margin: 0 auto;
     box-sizing: border-box;
-    padding: 0 20px;
+    padding: 0;
+    position: relative;
   }
 }
 header {
@@ -43,4 +45,16 @@ header {
 footer {}
 #landing {
   // Here goes styling which will only apply to the landing page, to div#landing
+}
+footer {
+  background-color: #aaa;
+  height: 4em;
+  margin-top: 12px;
+  color: white;
+  position: relative;
+}
+footer p {
+  color: white;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
 }
