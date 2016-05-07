@@ -7,14 +7,15 @@ body {
   text-align: center;
 }
 p {
-  margin: 18px 0;
+  margin: 10px 0;
 }
 img {
   height: auto;
   width: 500px;
   display: inline-block;
   max-width: 100%;
-  border-bottom: 20px;
+  padding-bottom: 30px;
+  padding-top: -5px;
 }
 header,
 section,
