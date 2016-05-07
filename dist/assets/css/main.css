@@ -197,11 +197,21 @@ p {
   margin: 18px 0;
 }
 
+img {
+  height: auto;
+  width: 500px;
+  display: inline-block;
+  max-width: 100%;
+}
+
 header .inner,
 section .inner,
 footer .inner {
+  min-width: 320px;
   max-width: 1080px;
   margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 20px;
 }
 
 header nav {
