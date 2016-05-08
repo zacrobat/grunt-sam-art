@@ -202,7 +202,7 @@ td, th {
 
 body {
   font-family: "Open Sans", "OpenSans", "Arial", "Helvetica", sans-serif;
-  color: #AAA;
+  color: #730099;
   font-weight: 400;
   font-size: 14px;
   line-height: 170%;
@@ -245,7 +245,7 @@ header nav ul li a {
 }
 
 footer {
-  background-color: #aaa;
+  background-color: #730099;
   height: 4em;
   margin-top: 12px;
   color: white;
