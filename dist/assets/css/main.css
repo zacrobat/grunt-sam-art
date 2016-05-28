@@ -1,5 +1,4 @@
-/* NORMALIZE */
-/* normalize.css v3.0.2 | MIT License | git.io/normalize */
+gtr
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -10,11 +9,26 @@ body {
   margin: 0;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
   display: block;
 }
 
-audio, canvas, progress, video {
+audio,
+canvas,
+progress,
+video {
   display: inline-block;
   vertical-align: baseline;
 }
@@ -24,7 +38,8 @@ audio:not([controls]) {
   height: 0;
 }
 
-[hidden], template {
+[hidden],
+template {
   display: none;
 }
 
@@ -32,7 +47,8 @@ a {
   background-color: transparent;
 }
 
-a:active, a:hover {
+a:active,
+a:hover {
   outline: 0;
 }
 
@@ -40,7 +56,8 @@ abbr[title] {
   border-bottom: 1px dotted;
 }
 
-b, strong {
+b,
+strong {
   font-weight: 700;
 }
 
@@ -50,7 +67,7 @@ dfn {
 
 h1 {
   font-size: 2em;
-  margin: .67em 0;
+  margin: 0.67em 0;
 }
 
 mark {
@@ -62,7 +79,8 @@ small {
   font-size: 80%;
 }
 
-sub, sup {
+sub,
+sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -99,12 +117,19 @@ pre {
   overflow: auto;
 }
 
-code, kbd, pre, samp {
+code,
+kbd,
+pre,
+samp {
   font-family: monospace,monospace;
   font-size: 1em;
 }
 
-button, input, optgroup, select, textarea {
+button,
+input,
+optgroup,
+select,
+textarea {
   color: inherit;
   font: inherit;
   margin: 0;
@@ -114,20 +139,26 @@ button {
   overflow: visible;
 }
 
-button, select {
+button,
+select {
   text-transform: none;
 }
 
-button, html input[type=button], input[type=reset], input[type=submit] {
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
   -webkit-appearance: button;
   cursor: pointer;
 }
 
-button[disabled], html input[disabled] {
+button[disabled],
+html input[disabled] {
   cursor: default;
 }
 
-button::-moz-focus-inner, input::-moz-focus-inner {
+button::-moz-focus-inner,
+input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
@@ -136,12 +167,14 @@ input {
   line-height: normal;
 }
 
-input[type=checkbox], input[type=radio] {
+input[type=checkbox],
+input[type=radio] {
   box-sizing: border-box;
   padding: 0;
 }
 
-input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -152,14 +185,15 @@ input[type=search] {
   box-sizing: content-box;
 }
 
-input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
 fieldset {
   border: 1px solid silver;
   margin: 0 2px;
-  padding: .35em .625em .75em;
+  padding: 0.35em 0.625em 0.75em;
 }
 
 legend {
@@ -180,31 +214,16 @@ table {
   border-spacing: 0;
 }
 
-td, th {
+td,
+th {
   padding: 0;
-}
-
-.center-container {
-  position: relative;
-}
-
-.absolute-center {
-  height: 50%;
-  width: 50%;
-  overflow: auto;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
 }
 
 body {
   font-family: "Open Sans", "OpenSans", "Arial", "Helvetica", sans-serif;
   color: #730099;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 170%;
   text-align: center;
   background-color: #e3e290;
@@ -223,26 +242,37 @@ img {
   padding-top: -5px;
 }
 
+footer .inner,
 header .inner,
-section .inner,
-footer .inner {
+section .inner {
+  padding: 30px;
   min-width: 320px;
-  max-width: 1080px;
-  margin: 0 auto;
   text-align: center;
 }
 
-header nav {
-  margin: 20px;
-}
 header nav ul {
   padding-left: 0;
+  float: right;
 }
 header nav ul li {
-  display: block;
+  display: inline;
+  float: left;
 }
 header nav ul li a {
   line-height: 20px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 0;
+  margin: 0;
+  padding: 0 17px;
+}
+header nav ul li:hover {
+  background-color: #eee;
+}
+
+h1 {
+  font-size: 1.6em;
+  text-align: center;
 }
 
 footer {
@@ -260,6 +290,11 @@ footer p {
   left: 0;
   bottom: 0;
   right: 0;
+}
+
+a {
+  color: #730099;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=main.css.map */
