@@ -227,6 +227,7 @@ body {
   line-height: 170%;
   text-align: center;
   background-color: #e3e290;
+  height: 100%;
 }
 
 p {
@@ -245,7 +246,7 @@ img {
 footer .inner,
 header .inner,
 section .inner {
-  padding: 30px;
+  padding: 60px;
   min-width: 320px;
   text-align: center;
 }

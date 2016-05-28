@@ -6,6 +6,7 @@ body {
     line-height: 170%;
     text-align: center;
     background-color: #e3e290;
+    height: 100%;
 }
 p {
     margin: 10px 0;
@@ -22,7 +23,7 @@ footer,
 header,
 section {
     .inner {
-        padding: 30px;
+        padding: 60px;
         min-width: 320px; // max-width: 1080px;        margin: 0 auto;
         text-align: center;
     }
