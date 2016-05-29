@@ -227,7 +227,6 @@ body {
   line-height: 170%;
   text-align: center;
   background-color: #e3e290;
-  height: 100%;
 }
 
 p {
@@ -236,7 +235,7 @@ p {
 
 img {
   height: auto;
-  width: 500px;
+  width: 60%;
   display: inline-block;
   max-width: 100%;
   padding-bottom: 30px;
