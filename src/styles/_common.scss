@@ -4,7 +4,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 170%;
-    text-align: center;
+    // text-align: center;
     background-color: #e3e290;
 }
 p {
@@ -18,46 +18,66 @@ img {
     padding-bottom: 30px;
     padding-top: -5px;
 }
+@media (max-width: 768px) {
+    img {
+        width: 100%;
+    }
+}
 footer,
 header,
 section {
     .inner {
-        padding: 60px;
-        min-width: 320px; // max-width: 1080px;        margin: 0 auto;
+        padding: 60px 20px;
+        min-width: 320px;
+        // max-width: 1080px;        margin: 0 auto;
         text-align: center;
     }
 }
 header {
+    background-color: red !important;
     nav {
-        // margin: 20px;
-        ul {
-            padding-left: 0;
-            float: right;
-            li {
-                display: inline;
-                float: left;
-                a {
-                    line-height: 20px;
-                    background-color: transparent;
-                    border-radius: 5px;
-                    border: 0;
-                    margin: 0;
-                    padding: 0 17px;
-                }
-                &:hover {
-                    background-color: #eee;
-                }
-            }
+        button {
+            margin-right: 24px !important;
+        }
+        li {
+            text-align: right;
+            margin-right: 12px;
         }
     }
+    // nav {
+    //     margin: 20px;
+    //     ul {
+    //         float: right;
+    //         li {
+    //             padding: 0 22px;
+    //             display: inline;
+    //             float: right;;
+    //             a {
+    //                 line-height: 20px;
+    //                 background-color: transparent;
+    //                 border-radius: 5px;
+    //                 border: 0;
+    //                 margin: 0;
+    //                 padding: 0 17px;
+    //             }
+    //             &:hover {
+    //                 background-color: #eee;
+    //             }
+    //         }
+    //     }
+    // }
 }
 #landing {
     // Here goes styling which will only apply to the landing page, to div#landing
 }
-h1 {
-    font-size: 1.6em;
-    text-align: center;
-}
+// h1 {
+//     font-size: 1.6em;
+//     text-align: center;
+// }
+// h1 {
+//     font-size: 1em;
+//     text-align: center;
+// }
 footer {
     background-color: #730099;
     height: 4em;
@@ -77,3 +97,7 @@ a {
     color: $main-color;
     text-decoration: none;
 }
+// .navbar-custom {
+//     color: black !important;
+//     background-color: red !important;
+// }
