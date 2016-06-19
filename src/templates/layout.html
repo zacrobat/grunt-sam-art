@@ -9,8 +9,14 @@
     <meta name="developer" content="Zac Cobb" name="developer">
     <meta name="robots" content="index, follow">
 
-    <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="
-        crossorigin="anonymous"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <!-- 3 KB -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    <!-- 16 KB -->
+
+    <!-- <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="
+        crossorigin="anonymous"></script> -->
 
     <script src="/assets/js/main.min.js"></script>
     <!-- Latest compiled and minified CSS -->
@@ -37,6 +43,15 @@
 
     {{> header}} {{#block "main"}}
     <h2>Main block</h2> {{/block}} {{> footer}}
+    <!-- test that jquery works: -->
+    <!-- <script>
+        $("body").text("jQuery works");
+    </script> -->
+    <!-- <script>
+        if (Galleria) {
+            $("body").text('Galleria works')
+        }
+    </script> -->
 
 </body>
 

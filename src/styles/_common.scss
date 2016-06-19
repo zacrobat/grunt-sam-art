@@ -5,31 +5,32 @@ body {
     font-size: 16px;
     line-height: 170%;
     // text-align: center;
-    background-color: #e3e290;
+    background-color: $backdrop-color;
 }
 p {
     margin: 10px 0;
 }
-img {
-    height: auto;
-    width: 60%;
-    display: inline-block;
-    max-width: 100%;
-    padding-bottom: 30px;
-    padding-top: -5px;
-}
-@media (max-width: 768px) {
-    img {
-        width: 100%;
-    }
-}
+// img {
+//     height: auto;
+//     width: 60%;
+//     display: inline-block;
+//     max-width: 100%;
+//     zpadding-bottom: 30px;
+//     padding-top: -5px;
+// }
+// @media (max-width: 768px) {
+//     img {
+//         width: 100%;
+//     }
+// }
 footer,
 header,
 section {
     .inner {
         padding: 60px 20px;
         min-width: 320px;
-        // max-width: 1080px;        margin: 0 auto;
+        // max-width: 1080px;
+        // margin: 0 auto;
         text-align: center;
     }
 }
@@ -101,3 +102,13 @@ a {
 //     color: black !important;
 //     background-color: red !important;
 // }
+//fotorama sizing:
+.fotorama__wrap {
+    margin: 0 auto;
+}
+.fotorama__caption__wrap {
+    position: relative;
+    // top: -24px;
+    // left: -263px;
+    background-color: $backdrop-color;
+}

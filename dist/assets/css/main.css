@@ -225,27 +225,13 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 170%;
-  background-color: #e3e290;
+  background-color: #00cc66;
 }
 
 p {
   margin: 10px 0;
 }
 
-img {
-  height: auto;
-  width: 60%;
-  display: inline-block;
-  max-width: 100%;
-  padding-bottom: 30px;
-  padding-top: -5px;
-}
-
-@media (max-width: 768px) {
-  img {
-    width: 100%;
-  }
-}
 footer .inner,
 header .inner,
 section .inner {
@@ -285,6 +271,15 @@ footer p {
 a {
   color: #730099;
   text-decoration: none;
+}
+
+.fotorama__wrap {
+  margin: 0 auto;
+}
+
+.fotorama__caption__wrap {
+  position: relative;
+  background-color: #00cc66;
 }
 
 /*# sourceMappingURL=main.css.map */
