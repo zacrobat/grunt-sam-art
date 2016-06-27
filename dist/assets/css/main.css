@@ -219,6 +219,14 @@ th {
   padding: 0;
 }
 
+@font-face {
+  font-family: "Copernicus-Book";
+  src: url("/assets/fonts/Copernicus-Book.woff"), url("/assets/fonts/Copernicus-Book.eot");
+}
+@font-face {
+  font-family: "GT-Walsheim-Bold";
+  src: url("/assets/fonts/GT-Walsheim-Bold.woff"), url("/assets/fonts/GT-Walsheim-Bold.eot"), url("/assets/fonts/GT-Walsheim-Bold.ttf");
+}
 body {
   font-family: "Open Sans", "OpenSans", "Arial", "Helvetica", sans-serif;
   color: #730099;
@@ -230,6 +238,11 @@ body {
 
 p {
   margin: 10px 0;
+}
+
+h1 {
+  font-family: "GT-Walsheim-Bold";
+  font-size: 65px;
 }
 
 footer .inner,
