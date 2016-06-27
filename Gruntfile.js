@@ -40,6 +40,14 @@ module.exports = function(grunt) {
       }
     },
 
+    copy: {
+        dist: {
+          files: {
+            'dist/assets/assets/fonts': ['src/public/assets/fonts']
+          }
+        }
+    },
+
     handlebarslayouts: {
       dist: {
         files: [{
