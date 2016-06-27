@@ -43,7 +43,7 @@ module.exports = function(grunt) {
     copy: {
         dist: {
           files: {
-            'dist/assets/assets/fonts': ['src/public/assets/fonts']
+            'dist/assets/fonts': ['src/public/assets/fonts']
           }
         }
     },
