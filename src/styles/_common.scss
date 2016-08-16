@@ -1,26 +1,25 @@
-@font-face {
-    font-family: "Copernicus-Book";
-    src: url("/assets/fonts/Copernicus-Book.woff"), url("/assets/fonts/Copernicus-Book.eot");
-}
-@font-face {
-    font-family: "GT-Walsheim-Bold";
-    src: url("/assets/fonts/GT-Walsheim-Bold.woff"), url("/assets/fonts/GT-Walsheim-Bold.eot"), url("/assets/fonts/GT-Walsheim-Bold.ttf");
-}
+// @font-face {
+//     font-family: "Copernicus-Book";
+//     src: url("/assets/fonts/Copernicus-Book.woff"), url("/assets/fonts/Copernicus-Book.eot");
+// }
+// @font-face {
+//     font-family: "GT-Walsheim-Bold";
+//     src: url("/assets/fonts/GT-Walsheim-Bold.woff"), url("/assets/fonts/GT-Walsheim-Bold.eot"), url("/assets/fonts/GT-Walsheim-Bold.ttf");
+// }
 body {
-    font-family: $font-stack;
-    color: $paragraph-color;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 170%;
-    // text-align: center;
-    background-color: $backdrop-color;
+  font-family: $font-stack;
+  color: $paragraph-color;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 170%;
+  // text-align: center;
+  background-color: $backdrop-color;
 }
 p {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 h1 {
-    font-family: "GT-Walsheim-Bold";
-    font-size: 65px;
+  font-size: 65px;
 }
 // img {
 //     height: auto;
@@ -38,50 +37,50 @@ h1 {
 footer,
 header,
 section {
-    .inner {
-        padding: 60px 20px;
-        min-width: 320px;
-        // max-width: 1080px;
-        // margin: 0 auto;
-        text-align: center;
-    }
+  .inner {
+    padding: 60px 20px;
+    min-width: 320px;
+    // max-width: 1080px;
+    // margin: 0 auto;
+    text-align: center;
+  }
 }
 header {
-    background-color: red !important;
-    nav {
-        button {
-            margin-right: 24px !important;
-        }
-        li {
-            text-align: right;
-            margin-right: 12px;
-        }
+  background-color: red !important;
+  nav {
+    button {
+      margin-right: 24px !important;
     }
-    // nav {
-    //     margin: 20px;
-    //     ul {
-    //         float: right;
-    //         li {
-    //             padding: 0 22px;
-    //             display: inline;
-    //             float: right;;
-    //             a {
-    //                 line-height: 20px;
-    //                 background-color: transparent;
-    //                 border-radius: 5px;
-    //                 border: 0;
-    //                 margin: 0;
-    //                 padding: 0 17px;
-    //             }
-    //             &:hover {
-    //                 background-color: #eee;
-    //             }
-    //         }
-    //     }
-    // }
+    li {
+      text-align: right;
+      margin-right: 12px;
+    }
+  }
+  // nav {
+  //     margin: 20px;
+  //     ul {
+  //         float: right;
+  //         li {
+  //             padding: 0 22px;
+  //             display: inline;
+  //             float: right;;
+  //             a {
+  //                 line-height: 20px;
+  //                 background-color: transparent;
+  //                 border-radius: 5px;
+  //                 border: 0;
+  //                 margin: 0;
+  //                 padding: 0 17px;
+  //             }
+  //             &:hover {
+  //                 background-color: #eee;
+  //             }
+  //         }
+  //     }
+  // }
 }
 #landing {
-    // Here goes styling which will only apply to the landing page, to div#landing
+  // Here goes styling which will only apply to the landing page, to div#landing
 }
 // h1 {
 //     font-size: 1.6em;
@@ -92,23 +91,23 @@ header {
 //     text-align: center;
 // }
 footer {
-    background-color: #730099;
-    height: 4em;
-    margin-top: 12px;
-    color: white;
-    position: relative;
+  background-color: #730099;
+  height: 4em;
+  margin-top: 12px;
+  color: white;
+  position: relative;
 }
 footer p {
-    color: white;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 a {
-    color: $main-color;
-    text-decoration: none;
+  color: $main-color;
+  text-decoration: none;
 }
 // .navbar-custom {
 //     color: black !important;
@@ -116,11 +115,11 @@ a {
 // }
 //fotorama sizing:
 .fotorama__wrap {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 .fotorama__caption__wrap {
-    position: relative;
-    // top: -24px;
-    // left: -263px;
-    background-color: $backdrop-color;
+  position: relative;
+  // top: -24px;
+  // left: -263px;
+  background-color: $backdrop-color;
 }

@@ -219,16 +219,8 @@ th {
   padding: 0;
 }
 
-@font-face {
-  font-family: "Copernicus-Book";
-  src: url("/assets/fonts/Copernicus-Book.woff"), url("/assets/fonts/Copernicus-Book.eot");
-}
-@font-face {
-  font-family: "GT-Walsheim-Bold";
-  src: url("/assets/fonts/GT-Walsheim-Bold.woff"), url("/assets/fonts/GT-Walsheim-Bold.eot"), url("/assets/fonts/GT-Walsheim-Bold.ttf");
-}
 body {
-  font-family: "Open Sans", "OpenSans", "Arial", "Helvetica", sans-serif;
+  font-family: "Poppins", "Helvetica", sans-serif;
   color: #730099;
   font-weight: 400;
   font-size: 16px;
@@ -241,7 +233,6 @@ p {
 }
 
 h1 {
-  font-family: "GT-Walsheim-Bold";
   font-size: 65px;
 }
 
